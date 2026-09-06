@@ -1,0 +1,51 @@
+{
+  "name": "maxprofit",
+  "version": "1.0.0",
+  "description": "Runtime: Node.js Input: terminal Runtime input: only n Building configuration: fixed from the problem statement Algorithm: top-down DP + memoization State: currentTime Memo: maximum additional profit for each currentTime Choice tracking: remember which building produced the maximum so we can output T/P/C Invalid n: reject anything other than a non-negative integer Tie: any optimal solution is acceptable; we'll keep the first maximum encountered. No external packages: use Node's built-in input functionality.",
+  "main": "max-profit.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "assertion-error": "^2.0.1",
+    "chai": "^6.2.2",
+    "convert-source-map": "^2.0.0",
+    "detect-libc": "^2.1.2",
+    "es-module-lexer": "^2.3.2",
+    "estree-walker": "^3.0.3",
+    "expect-type": "^1.4.0",
+    "fdir": "^6.5.0",
+    "fsevents": "^2.3.3",
+    "lightningcss": "^1.33.0",
+    "lightningcss-darwin-arm64": "^1.33.0",
+    "magic-string": "^0.30.21",
+    "nanoid": "^3.3.18",
+    "obug": "^2.1.4",
+    "pathe": "^2.0.3",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.7",
+    "postcss": "^8.5.28",
+    "rolldown": "^1.2.7",
+    "siginfo": "^2.0.0",
+    "source-map-js": "^1.2.1",
+    "stackback": "^0.0.2",
+    "std-env": "^4.2.0",
+    "tinybench": "^2.9.0",
+    "tinyexec": "^1.3.1",
+    "tinyglobby": "^0.2.17",
+    "tinyrainbow": "^3.1.1",
+    "vite": "^8.2.2",
+    "why-is-node-running": "^2.3.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  },
+"scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

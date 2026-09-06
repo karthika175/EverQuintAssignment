@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+svg {
+  display: block;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.grid-line {
+  stroke: #ddd;
+  stroke-width: 1;
+}
+
+.axis {
+  stroke: #333;
+  stroke-width: 2;
+}
+
+.unit-label {
+  font-size: 12px;
+  fill: #555;
+}
+
+.x-label {
+  font-size: 12px;
+  fill: #555;
+}
+
+.bar {
+  fill: steelblue;
+  cursor: ns-resize;
+}
+
+.water {
+  fill: lightblue;
+  opacity: 0.8;
+}
+
+.height-label {
+  font-size: 14px;
+  font-weight: bold;
+  fill: #333;
+  pointer-events: none;
+}
+
+.click-area {
+  fill: transparent;
+  cursor: ns-resize;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 20px;
+  font-weight: bold;
+}
+.click-area:focus {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+.input-error {
+  color: red;
+  margin-top: 5px;
+}
