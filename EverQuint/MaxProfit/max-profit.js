@@ -1,4 +1,4 @@
-const readline = require("readline");
+import readline from "readline";
 
 const buildings = [
     { type: "T", constructionTime: 5, earningRate: 1500 },
