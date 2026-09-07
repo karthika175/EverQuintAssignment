@@ -296,3 +296,15 @@ profit = remainingTime × earningRate
 Therefore, I use currentTime as the DP state instead of directly treating each building as having a fixed value.
 
 
+## Clarification — All Optimal Combinations
+
+The original problem statement does not explicitly specify whether to return one optimal combination or all optimal combinations. I initially assumed that returning any one valid optimal combination was sufficient.
+
+After clarification from the reviewer, I updated the implementation to return all unique combinations that achieve the maximum profit.
+
+## Why Map instead of an Array?
+
+Array: simpler and easy to iterate, but duplicate combinations need to be checked manually.
+Map: slightly more memory overhead, but provides a direct way to deduplicate combinations using a unique key.
+
+Since the clarified requirement specifically asks for all unique optimal combinations, I chose Map because deduplication is explicit and straightforward.
